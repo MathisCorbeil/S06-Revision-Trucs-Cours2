@@ -12,6 +12,7 @@ public class JeuV2 : MonoBehaviour
     void Start()
     {
         pointsJeu = 0;
+        InvokeRepeating("AugmenterPoints", 1f,1f );
     }
 
     public void AugmenterPoints()
